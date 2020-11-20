@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 # Setup module
 setup(
     # Module name
-    name="colortext",
+    name="terminalcolor",
     # Module version
     version="1.0.0",
     # Description
@@ -15,13 +15,13 @@ setup(
     # Author email
     author_email="cheong7wol@gmail.com",
     # Project url
-    url="https://github.com/cheongwoli/PythonTerminalTextColor",
+    url="https://github.com/cheongwoli/TerminalColor",
     # Project packages
     packages=find_packages(),
     # Python requires
     python_requires=">=3.6",
     # Keywords
-    keywords=["Python Terminal Text Color", "terminal text color", "colortext"],
+    keywords=["Python Terminal Text Color", "terminal text color", "terminalcolor"],
     # Classifiers
     classifiers=[
         "Programming Language :: Python :: 3",
