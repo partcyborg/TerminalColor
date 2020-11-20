@@ -5,7 +5,7 @@ TerminalColor
 
 |Pypi_Version| |Pypi_Package|
 
-> TerminalColor is used to change the color of the text displayed on the Python terminal.
+TerminalColor is used to change the color of the text displayed on the Python terminal.
 
 .. |Python_Version| image:: https://img.shields.io/pypi/pyversions/terminalcolor?label=Python%20Version&logo=python&logoColor=white&style=flat-square
     :target: https://python.org
@@ -44,15 +44,15 @@ Text Types
 
 
 3/4bit color mode
-> ctext(color="brightness-color_name")
+ctext(color="brightness-color_name")
 
 8bit color mode
-> ctext(color="8bit-color_code")
+ctext(color="8bit-color_code")
 
 24bit color mode
-> ctext(color="24bit-r;g;b")
+ctext(color="24bit-r;g;b")
 
-> ctext(color="rgb-r;g;b")
+ctext(color="rgb-r;g;b")
 
 
 -----------------
