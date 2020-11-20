@@ -45,17 +45,19 @@ TerminalColor
 
 **3/4bit color mode**
 
-ctext(color="brightness-color_name")
+- ctext(color="brightness-color_name")
+
 
 **8bit color mode**
 
-ctext(color="8bit-color_code")
+- ctext(color="8bit-color_code")
+
 
 **24bit color mode**
 
-ctext(color="24bit-r;g;b")
+- ctext(color="24bit-r;g;b")
 
-ctext(color="rgb-r;g;b")
+- ctext(color="rgb-r;g;b")
 
 
 **Example Code**
