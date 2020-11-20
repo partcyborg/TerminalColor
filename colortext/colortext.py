@@ -7,7 +7,7 @@ __all__ = ['ctext', 'cprint']
 
 class ANSIColor(Enum):
     """
-    This class is the Enum class and is the repository for ANSI Color.
+    This class is Enum and is the repository for ANSI Color.
     In brightness, F stands for foreground and B stands for background.
     """
 
@@ -74,7 +74,7 @@ def ctext(text: str, **kwargs: Any) -> str:
     cf. To use multiple text types, enter multiple text types in list format.
     ex) text_type=['bold', 'italic', 'underline']
 
-    cf. To use the extended color, enter it in the format 'bit mod-color code'.
+    cf. To use extended color, enter it in the format 'bit mod-color code'.
     ex) color='(8 or 8Bit)-231', bg_color='(24 or 24Bit or RGB)-91;92;239'
     """
     if kwargs is not None:
@@ -156,6 +156,6 @@ def convert(color: str, background: bool = False) -> str:
             color_code = ('38;2;' + color_data[1])
 
     else:
-        raise ValueError('The entered value is not in brightness or bit mode!')
+        raise ValueError('The entered value is not a brightness or a bit mode!')
 
     return str(color_code)
