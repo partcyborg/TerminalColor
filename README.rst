@@ -16,18 +16,16 @@ TerminalColor is used to change the color of the text displayed on the Python te
 .. |Pypi_Package| image:: https://img.shields.io/pypi/format/terminalcolor?label=package&logo=pypi&logoColor=white&style=flat-square
     :target: https://pypi.org/project/terminalcolor/
 
------------------
+
 Brightnesses(3/4bit) and Bit modes(8bit, 24bit)
------------------
 - dark
 - light
 
 - 8bit
 - 24bit or rgb
 
------------------
+
 Colors(3/4bit)
------------------
 - red
 - green
 - yellow
@@ -35,9 +33,8 @@ Colors(3/4bit)
 - magenta
 - cyan
 
------------------
+
 Text Types
------------------
 - bold
 - italic
 - underline
@@ -55,9 +52,7 @@ ctext(color="24bit-r;g;b")
 ctext(color="rgb-r;g;b")
 
 
------------------
 Example Code
------------------
 .. code-block:: python
 from terminalcolor import ctext, cprint
 
