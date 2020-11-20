@@ -1,2 +1,2 @@
 # TerminalColor
-[![License](https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?style=flat-square)]
+![License](https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?style=flat-square)
