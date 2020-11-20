@@ -8,6 +8,8 @@ setup(
     version="1.0.0",
     # Description
     description="Change the Python terminal text color.",
+    # Long Description
+    long_description=open('README.rst').read(),
     # License
     license="MIT",
     # Author - Github username
