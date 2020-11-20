@@ -5,7 +5,7 @@ TerminalColor
 
 |Pypi_Version| |Pypi_Package|
 
-TerminalColor is used to change the color of the text displayed on the Python terminal.
+**TerminalColor** is used to change the color of the text displayed on the Python terminal.
 
 .. |Python_Version| image:: https://img.shields.io/pypi/pyversions/terminalcolor?label=Python%20Version&logo=python&logoColor=white&style=flat-square
     :target: https://python.org
@@ -61,29 +61,30 @@ ctext(color="rgb-r;g;b")
 **Example Code**
 
 .. code-block:: python
-from terminalcolor import ctext, cprint
 
-"""
-ctext
-"""
+    from terminalcolor import ctext, cprint
 
-# color
-print(ctext(text="example", color="dark-blue"))
-# background color
-print(ctext(text="example", bg_color="light-blue"))
-# single text type
-print(ctext(text="example", text_type="bold"))
-# multiple text type
-print(ctext(text="example", text_type=["italic", "underline"]))
+    """
+    ctext
+    """
 
-# 8bit color mode
-print(ctext(text="example", color="8bit-231"))
-# 24bit color mode
-print(ctext(text="example", color="24bit-91;92;239"))
-print(ctext(text="example", color="rgb-91;92;239"))
+    # color
+    print(ctext(text="example", color="dark-blue"))
+    # background color
+    print(ctext(text="example", bg_color="light-blue"))
+    # single text type
+    print(ctext(text="example", text_type="bold"))
+    # multiple text type
+    print(ctext(text="example", text_type=["italic", "underline"]))
 
-"""
-cprint
-"""
+    # 8bit color mode
+    print(ctext(text="example", color="8bit-231"))
+    # 24bit color mode
+    print(ctext(text="example", color="24bit-91;92;239"))
+    print(ctext(text="example", color="rgb-91;92;239"))
 
-cprint(text="example", color="light-yellow", bg_color="dark-blue", text_type="bold")
+    """
+    cprint
+    """
+
+    cprint(text="example", color="light-yellow", bg_color="dark-blue", text_type="bold")
