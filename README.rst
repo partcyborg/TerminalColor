@@ -1,22 +1,33 @@
-# TerminalColor
-![Python_Version](https://img.shields.io/pypi/pyversions/terminalcolor?label=Python%20Version&logo=python&logoColor=white&style=flat-square)
-![License](https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?label=License&logo=pypi&logoColor=white&style=flat-square)
+===============
+TerminalColor
+===============
+|Python_Version| |License|
 
-![Pypi_Version](https://img.shields.io/pypi/v/terminalcolor?logo=pypi&logoColor=white&style=flat-square)
-![Pypi_Package](https://img.shields.io/pypi/format/terminalcolor?label=package&logo=pypi&logoColor=white&style=flat-square)
+|Pypi_Version| |Pypi_Package|
 
 > TerminalColor is used to change the color of the text displayed on the Python terminal.
 
------
+.. |Python_Version| image:: https://img.shields.io/pypi/pyversions/terminalcolor?label=Python%20Version&logo=python&logoColor=white&style=flat-square
+    :target: https://python.org
+.. |License| image:: https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?label=License&logo=pypi&logoColor=white&style=flat-square
+    :target: https://github.com/cheongwoli/TerminalColor/blob/main/LICENSE
+.. |Pypi_Version| image:: https://img.shields.io/pypi/v/terminalcolor?logo=pypi&logoColor=white&style=flat-square
+    :target: https://pypi.org/project/terminalcolor/
+.. |Pypi_Package| image:: https://img.shields.io/pypi/format/terminalcolor?label=package&logo=pypi&logoColor=white&style=flat-square
+    :target: https://pypi.org/project/terminalcolor/
 
-#### Brightnesses(3/4bit) and Bit modes(8bit, 24bit)
+-----------------
+Brightnesses(3/4bit) and Bit modes(8bit, 24bit)
+-----------------
 - dark
 - light
 
 - 8bit
 - 24bit or rgb
 
-#### Colors(3/4bit)
+-----------------
+Colors(3/4bit)
+-----------------
 - red
 - green
 - yellow
@@ -24,12 +35,13 @@
 - magenta
 - cyan
 
-#### Text Types
+-----------------
+Text Types
+-----------------
 - bold
 - italic
 - underline
 
------
 
 3/4bit color mode
 > ctext(color="brightness-color_name")
@@ -42,10 +54,11 @@
 
 > ctext(color="rgb-r;g;b")
 
------
 
-#### Example Code
-```python
+-----------------
+Example Code
+-----------------
+.. code-block:: python
 from terminalcolor import ctext, cprint
 
 """
@@ -72,4 +85,3 @@ cprint
 """
 
 cprint(text="example", color="light-yellow", bg_color="dark-blue", text_type="bold")
-```
