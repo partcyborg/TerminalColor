@@ -1,6 +1,6 @@
 # TerminalColor
 ![Python_Version](https://img.shields.io/pypi/pyversions/terminalcolor?label=Python%20Version&logo=python&logoColor=white&style=flat-square)
-![License](https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?label=License&logo=github&logoColor=white&style=flat-square)
+![License](https://img.shields.io/github/license/cheongwoli/PythonTerminalTextColor?label=License&logo=pypi&logoColor=white&style=flat-square)
 
 ![Pypi_Version](https://img.shields.io/pypi/v/terminalcolor?logo=pypi&logoColor=white&style=flat-square)
 ![Pypi_Package](https://img.shields.io/pypi/format/terminalcolor?label=package&logo=pypi&logoColor=white&style=flat-square)
