@@ -9,21 +9,17 @@ setup(
     # Description
     description="Change the Python terminal text color.",
     # Long Description
-    long_description=open('README.rst').read(),
-    # License
-    license="MIT",
+    long_description=open('README.md').read(),
     # Author - Github username
-    author="cheongwoli",
+    author="partcyborg",
     # Author email
-    author_email="cheong7wol@gmail.com",
+    author_email="me@partcyb.org",
     # Project url
-    url="https://github.com/cheongwoli/TerminalColor",
+    url="https://github.com/partcyborg/TerminalColor",
     # Project packages
     packages=find_packages(),
     # Python requires
     python_requires=">=3.6",
-    # Keywords
-    keywords=["Python Terminal Text Color", "terminal text color", "terminalcolor"],
     # Classifiers
     classifiers=[
         "Programming Language :: Python :: 3",
