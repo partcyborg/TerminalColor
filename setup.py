@@ -5,7 +5,7 @@ setup(
     # Module name
     name="terminalcolor",
     # Module version
-    version="1.0.2",
+    version="1.0.3",
     # Description
     description="Change the Python terminal text color.",
     # Long Description
